@@ -1,0 +1,32 @@
+html>body{overflow:visible}#bugviewContainer,#bugviewContainer .bugevents div.bugevent{overflow:visible;border:0}#bugviewContainer{margin:0;position:auto;left:0;width:100% !important;box-shadow:none}#bugviewContainer .bugevents{_width:40em}#fbsidebar,.doNotPrint,.navBar1,.navBar2,.navBar3,.messageBar,.actionButton,.actionButtonDisabled,.nextPrev,#bugviewActionButtonsTop,#bugviewActionButtonsBottom,div.emailActionsMore,#tbFull,#header,div.articleBar,div.buttons .actionButton2,div.discussSearch,div.wikiSearch,.starFull,.starEmpty,.discussSideBar,#containerSubscribe,#idEditReleaseNotes,div.rss,#listNav,.viewToolbar{display:none}#mainArea td{width:0px}#mainArea{margin:0}#mainArea td#listTitle{width:auto}.attachmentDeleteIcon{display:none}.bugEditTable{width:100%}#graphPrintTip{display:block}#bugviewContainer .bugevents .bugevent .body,#bugviewContainer .bugevents .bugevent .body .email .emailBody{overflow:visible}
+  .contentWikiView #wiki-page-nav,.contentWikiView 
+  #wiki-page-controls {
+    display: none;
+  }
+  .contentWikiView #body,.contentWikiView 
+  #wiki-page-header,.contentWikiView 
+  .wiki-page-root-link {
+    background: none !important;
+    border: none !important;
+  }
+  .contentWikiView .wiki-page-root-link {
+    padding: 0 !important;
+  }
+  .contentWikiView .wiki-page-root-link a {
+    margin: 0 !important;
+    padding-right: 0 !important;
+  }
+  .contentWikiView .wiki-page-breadcrumbs a.first:before {
+    content: "\00BB  ";
+    color: #666666;
+    font-size: 90%;
+  }
+  .contentWikiView #body {
+    box-shadow: none;
+    margin: 0;
+    width: auto;
+  }
+  .contentWikiView #wiki-page-content {
+    padding: 0;
+  }
+#mainArea{padding:0 !important;}
